@@ -40,7 +40,69 @@ body {
   /* overflow: hidden; */
   border-radius: 25px;
 }
+.h-3{
+  color: rgb(1, 1, 52);
+  margin-left: 20px;
+  margin-top: 8px;
+  font-size: 17px;
+}
+.right-img{
+  width: 150px;
+  height: 100px;
+  background-color: #f5f5f5; 
+  padding: 0;
+  position: absolute;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  bottom: 250px;
+  transform: translateX(53vh);
+}
+.t-c5{
+    color: green;
+  font-weight: bold;
+  font-size: 10px;
+  margin-left: 20px;
+}
+.img-right{
+   width: 100px;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  top: 30px;
+  right: 27px
+}
 
+.bottom-content{
+   width: 150px;
+  height: 100px;
+  background-color: #f5f5f5; 
+  padding: 0;
+  position: absolute;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  top: 250px;
+  transform: translateX(53vh);
+}
+
+.b-con{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.ri-poker-hearts-fill {
+  width: 25px;
+  height: 25px;
+  background-color: #ecc3d8;
+  color: #FF007F;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  font-size: 10px;
+}
 .radial {
   width: 420px;
   height: 420px;
@@ -53,7 +115,7 @@ body {
     transparent 100%
   );
 
-  /* Center the circle */
+  
   position: absolute;
   top: 50%;
   left: 50%;
@@ -61,7 +123,8 @@ body {
 }
 
 .left-img {
-  margin: 70px 30px 0 30px;
+  margin: 70px 30px 0 10px;
+  top: 10px;
   width: 150px;
   height: 100px;
   background-color: #f5f5f5; 
@@ -328,29 +391,157 @@ gap: 10px;
   right: 200px;
   top: 350px;
 }
+
+/* Bottom -left */
 .bottom-left{
   background-color: rgb(84, 84, 82);
   grid-column: 1/2;
   grid-row: 3/6;
+  color: white;
+}
+.bottom{
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
 }
 
+.bottom i{
+  background-color:aliceblue;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25%;
+  color: black;
+}
+
+.img-bt{
+  width: 100px;
+  height: 130px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+.bot-im{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 .left-content1{
   margin-top: 20px;
 }
+.img-parts {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid rgb(255, 255, 255);
+  margin-left: -10px;
+  margin-top: 28px;
+}
+.team-members1{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
 .bottom-center1{
   background-color: rgb(243, 219, 223);
   grid-column: 2/3;
   grid-row: 5/6;
-}
 
+}
+.font{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.font p{
+   font-size: 10px;
+}
+.colourss{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin: 10px;
+  gap: 2px;
+}
+.span1{
+  height: 30px;
+  width: 30px;
+  background-color: rgb(33, 1, 1);
+}
+.span2{
+  height: 30px;
+  width: 30px;
+  background-color: rgb(32, 34, 34);
+}
+.span3{
+  height: 30px;
+  width: 30px;
+  background-color: rgb(241, 103, 172);
+}
+.span4{
+  height: 30px;
+  width: 30px;
+  background-color: rgb(241, 179, 222);
+}
 .bottom-center2{
   background-color: rgb(243, 219, 223);
   grid-column: 3/5;
    grid-row: 5/6;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.final{
+  display: flex;
+  margin-left: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.left-bc2{
+  margin-left: 12px;
+}
+#right-bc2{
+  width: 100px;
+  height: 100px;
+}
+
+.btn-c3{
+  padding: 12px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 12px;
+  width: 150px;
 }
 
 .bottom-right{
   background-color: rgb(243, 219, 223);
   grid-column: 5/6;
   grid-row: 3/6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  gap: 10px;
+}
+
+.last-img{
+  width: 120px;
+  height: 120px;
+}
+
+.btn-l{
+  background-color: #ecc3d8;
+  border-radius: 25px;
+  padding: 20px;
+  border: none;
+  font-weight: bold;
+  width: 200px;
 }
