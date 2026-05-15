@@ -1,0 +1,435 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  
+}
+
+.container{
+ min-height: 100vh;  
+max-width: 1800px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  margin: 15px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden;   
+}
+
+.logo{
+  width: 350px;
+  height: 190px;
+  padding-top: 0%;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+ul{
+  display: flex;
+  align-items: center;
+  gap: 70px;
+ margin-top: 50px;
+}
+
+li{
+  list-style: none;
+  font-size: 20px;
+ 
+}
+
+a{
+  text-decoration: none;
+   color: black;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+a:hover{
+  text-decoration: dashed;
+  color: rgb(3, 77, 3);
+  font-weight: bold;
+}
+/* Search input */
+.search input {
+  width: 100%;
+  padding: 10px 10px 10px 40px; /* Space for search icon */
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  outline: none;
+  margin: 0; /* Remove the 50px margin that was pushing it */
+}
+
+/* Search container */
+.search {
+  position: relative;
+  width: 250px;      /* Give the search box a fixed width */
+  margin-top: 50px;  /* Align with navigation */
+  margin-right: 40px;
+}
+
+.sr-i{
+  position: absolute;
+  left: 12px;
+   top: 10px;  
+}
+
+.sh-i{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.sep {
+  position: absolute;
+  right: 40px; /* place before shopping bag icon */
+  top: 13%;
+  transform: translateY(-50%);
+
+  width: 1px;
+  height: 20px;
+  background-color: black;
+}
+
+
+.main{
+  display: flex;
+   margin:0%
+}
+/* left panel */
+.left-panel{
+ width: 40%;
+ padding-left: 40px;
+}
+
+.badge {
+    position: relative;
+    display: inline-block;
+}
+
+.text-1 {
+    color: green;
+    border: 1px solid green;
+    width: 190px;
+    padding: 8px;
+    padding-left: 30px;
+    border-radius: 25px;
+    font-size: 12px;
+    background-color: rgb(227, 241, 227);
+    margin: 0;
+}
+
+.icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: green;
+    font-size: 14px;
+}
+
+.text-2{
+  font-weight: bold;
+  font-size: 70px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.col{
+  color: rgb(1, 99, 1);
+}
+
+/* Button container */
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 20px;              /* Space between Add to Cart and Counter */
+  margin-top: 30px;
+}
+
+/* Add to Cart button */
+.btn-1 {
+  background-color: rgb(77, 3, 3);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Counter button */
+.btn-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 12px;
+
+  width: 130px;
+  height: 50px;
+
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  background-color: white;
+
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0 15px;
+}
+
+/* Optional: style + and - */
+.btn-2 span:first-child,
+.btn-2 span:last-child {
+  color: green;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+/* Optional: separators */
+.btn-2 span:nth-child(2),
+.btn-2 span:nth-child(4) {
+  color: #ccc;
+}
+
+.Features{
+  display: flex;
+  margin-top: 40px;
+  gap: 40px;
+}
+
+.feature-1{
+   display: flex;
+   gap: 10px;
+   align-items: center;
+}
+.ri-leaf-fill{
+  
+  color: rgb(0, 255, 38);
+  border: 2px solid rgb(0, 255, 38);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+
+}
+.feature-2{
+   display: flex;
+   gap: 10px;
+   align-items: center;
+}
+
+.ri-fire-fill{
+  color: orange;
+  border: 2px solid orange;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+}
+.feature-3{
+   display: flex;
+   gap: 10px;
+   align-items: center;
+}
+
+.ri-heart-fill{
+   color: rgb(255, 0, 0);
+  border: 2px solid rgb(255, 0, 0);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+}
+
+.text-3{
+   font-size: 12px;
+   font-weight: bold;
+}
+/* right panel */
+.right-panel{
+  display: flex;
+  width: 60%;
+  align-items: center; 
+  margin-right: 80px;
+}
+
+.im-s{
+  width: 90px;
+  height: 90px;
+  background-color: rgb(10, 110, 10);
+  border-radius: 50%;
+  margin: 20px; 
+}
+.im-b{
+   width: 90px;
+  height: 90px;
+  background-color: red;
+  border-radius: 50%;
+  margin: 20px; 
+}
+.im-h{
+     width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 15px;
+}
+
+.fet-1{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.main-img{
+  width: 900px;
+  height: 500px;}
+
+.product{
+  position: relative;
+  width: 600px;
+  height: 500px;
+}
+
+.circle{
+  position:absolute;
+  width: 480px;
+  height: 480px;
+  background: radial-gradient(
+        circle,
+        rgba(153, 238, 144, 0.146),
+        rgba(3, 227, 3, 0.176),
+        transparent 100%
+    );
+      border-radius: 100%;
+    top: -10px;
+    left: 10px;
+    z-index: 1;
+}
+
+
+.product img {
+    position: absolute;
+    width: 320px;
+    top: -30px;
+    left: 90px;
+    z-index: 2;
+    transform: rotate(-10deg);
+}
+
+.text-4{
+  color: rgb(126, 125, 125);
+  font-weight: 10px;
+  font-size: 14px;
+}
+
+
+/* Footer */
+.footer-main {
+  background-color: green;
+  width: 90%;
+  min-height: 250px;
+  margin: 0 auto 40px; /* top: 0, left/right: auto, bottom: 40px */
+  border-radius: 20px;
+  display: flex;
+  gap: 40px;
+}
+
+.arrow{
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.flov{
+  color: white;
+  font-size: 20px;
+}
+.ri-arrow-left-line{
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+}
+.ri-arrow-right-line{
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+}
+.card{
+  background-color: white;
+  width: 330px;
+  height: 150px;
+  display: flex;
+  margin-top: 60px;
+  border-radius: 25px;
+  position: relative;
+}
+
+.con-1{
+  display: flex;
+}
+.img-fo{
+  width: 130px;
+  height: 170px;
+  position:absolute;
+  bottom: 4px;
+  margin-left: 15px;
+}
+/* .img-foo{
+   width: 200px;
+  height: 190px;
+  position:absolute;
+  bottom: 1px;
+ margin-right: 100%;
+} */
+.content{
+  display: flex;
+  flex-direction: column;
+  padding-left: 150px; 
+  align-items: left;
+  justify-items: left;
+  gap: 7px;
+  margin: auto;
+}
+
+.btn-4{
+  color: white;
+  background-color: red;
+  border-radius: 25px;
+  padding: 10px;
+  border-style: none;
+}
+
+.cards{
+  display: flex;
+  gap: 40px;
+}
+
+/* Common style for all card images */
+
+.img-foo {
+  position: absolute;
+  /* left: 10px; */
+  bottom: -12px;      /* makes image slightly come out from the card */
+  width: 240px;
+  height: 280px;
+  object-fit: contain;
+}
+
+/* Only for the second image */
+.img-foo {
+  width: 270px;       /* keep it a little wider */
+  height: 200px;
+  left: -60px;          /* shift slightly to the left */
+  bottom: -12px;      /* same bottom alignment as others */
+  object-fit: contain;
+}
+
