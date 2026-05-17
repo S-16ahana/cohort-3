@@ -467,26 +467,31 @@ gap: 10px;
   justify-content:center;
   margin: 10px;
   gap: 2px;
+ 
 }
 .span1{
   height: 30px;
   width: 30px;
   background-color: rgb(33, 1, 1);
+   border-radius: 8px;
 }
 .span2{
   height: 30px;
   width: 30px;
   background-color: rgb(32, 34, 34);
+   border-radius: 8px;
 }
 .span3{
   height: 30px;
   width: 30px;
   background-color: rgb(241, 103, 172);
+   border-radius: 8px;
 }
 .span4{
   height: 30px;
   width: 30px;
   background-color: rgb(241, 179, 222);
+   border-radius: 8px;
 }
 .bottom-center2{
   background-color: rgb(243, 219, 223);
@@ -499,9 +504,10 @@ gap: 10px;
 
 .final{
   display: flex;
-  margin-left: 10px;
+  margin-left: 5px;
   justify-content: space-evenly;
   align-items: center;
+  font-size: 12px;
 }
 .left-bc2{
   margin-left: 12px;
